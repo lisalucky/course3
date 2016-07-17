@@ -1,17 +1,17 @@
-function login() {
+ï»¿function login() {
 	var username = document.getElementById('username').value;
 	var password = document.getElementById('password').value;
 	if(!username) {
-		alert('±ØĞëÊäÈëÓÃ»§Ãû£¡');
+		alert('å¿…é¡»è¾“å…¥ç”¨æˆ·åï¼');
 		return;
 	}
 	if(!password) {
-		alert('±ØĞëÊäÈëÃÜÂë£¡');
+		alert('å¿…é¡»è¾“å…¥å¯†ç ï¼');
 		return;
 	}
 	
 	if(username != "1" || password != "1111") {
-		alert("ÓÃ»§Ãû»òÃÜÂë´íÎó£¬ÇëÖØĞÂÊäÈë£¡");	
+		alert("ç”¨æˆ·åæˆ–å¯†ç é”™è¯¯ï¼Œè¯·é‡æ–°è¾“å…¥ï¼");	
 		return;
 	}
 	
